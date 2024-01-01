@@ -1,8 +1,6 @@
-import os
 import unittest
-from functools import reduce
 
-from flathunter.crawler.vrmimmo import VrmImmo
+from flathunter.crawler.germany.vrmimmo import VrmImmo
 from test.utils.config import StringConfig
 
 class VrmImmoCrawlerTest(unittest.TestCase):

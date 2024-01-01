@@ -2,7 +2,7 @@ import os
 import unittest
 from functools import reduce
 from bs4 import BeautifulSoup
-from flathunter.crawler.wggesucht import WgGesucht
+from flathunter.crawler.germany.wggesucht import WgGesucht
 from test.utils.config import StringConfig
 
 class WgGesuchtCrawlerTest(unittest.TestCase):
